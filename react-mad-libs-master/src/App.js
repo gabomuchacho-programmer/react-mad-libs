@@ -33,6 +33,7 @@ function App() {
       <Selector data={MadLibsData} setSelectedMadLib={setSelectedMadLib} />
       <hr />
       <WordForm words={selectedMadLib.words} updateMadLibWord={updateMadLibWord} />
+      <br></br>
       <Story text={selectedMadLib.getText()} />
     </div>
   )
